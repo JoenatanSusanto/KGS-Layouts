@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | AVIP Style Interior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="viewproject.css">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- LOADING SCREEN -->
+    <!-- ========================================== -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">
+            <img src="https://via.placeholder.com/120x40/1A1A1A/FFFFFF?text=AVIP" alt="AVIP Style Logo">
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- NAVBAR (Transparan saat hero, putih saat scroll) -->
+    <!-- ========================================== -->
+    <header class="navbar transparent" id="navbar">
+        <div class="container nav-container">
+            <a href="/index.html" class="logo">AVIP STYLE</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="/About/about.html">About</a>
+                <a href="/Service/service.html" >Service</a>
+                <a href="/Viewallproject/viewproject.html" class="active">Project</a>
+                <a href="/People/people.html">People</a>
+                <a href="/Expertise/expertise.html">Expertise</a>
+                <a href="/Contact/Contact.html" class="btn-primary">Contact</a>
+            </nav>
+            <div class="mobile-menu-icon" id="mobileMenuIcon">☰</div>
+        </div>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- HERO SECTION -->
+    <!-- ========================================== -->
+    <section class="hero-projects" id="hero">
+        <div class="hero-projects-bg">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80" alt="Projects Hero">
+            <div class="hero-projects-overlay"></div>
+        </div>
+        <div class="container hero-projects-content">
+            <span class="section-tag-light hero-animate">Portofolio</span>
+            <h1 class="hero-animate">Projects</h1>
+            <p class="hero-subtitle hero-animate">Eksplorasi karya terbaik kami — dari kantor pusat korporat hingga ruang kerja inovatif.</p>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- FEATURED PROJECTS (Overlapping Reveal - 3 Projects) -->
+    <!-- ========================================== -->
+    <section class="featured-projects">
+
+        <!-- Featured Project 1 -->
+        <div class="featured-reveal" id="reveal-1">
+            <div class="reveal-card">
+                <div class="reveal-image">
+                    <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&q=80" alt="ASTRA Headquarters">
+                </div>
+                <div class="reveal-info">
+                    <span class="reveal-number">WORK → 001</span>
+                    <span class="reveal-type">Design + Build</span>
+                    <h2 class="reveal-client">ASTRA Headquarters</h2>
+                    <p class="reveal-meta">12.000 m² · Jakarta, Indonesia</p>
+                    <p class="reveal-tagline">"Mewujudkan visi ruang kerja masa depan"</p>
+                    <a href="#" class="reveal-link">View Project <span>→</span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Project 2 -->
+        <div class="featured-reveal" id="reveal-2">
+            <div class="reveal-card">
+                <div class="reveal-image">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1920&q=80" alt="Tokopedia Campus">
+                </div>
+                <div class="reveal-info">
+                    <span class="reveal-number">WORK → 002</span>
+                    <span class="reveal-type">Interior Design</span>
+                    <h2 class="reveal-client">Tokopedia Campus</h2>
+                    <p class="reveal-meta">8.800 m² · Jakarta, Indonesia</p>
+                    <p class="reveal-tagline">"Kolaborasi tanpa batas dalam satu atap"</p>
+                    <a href="#" class="reveal-link">View Project <span>→</span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Project 3 -->
+        <div class="featured-reveal" id="reveal-3">
+            <div class="reveal-card">
+                <div class="reveal-image">
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1920&q=80" alt="L'Oréal Office">
+                </div>
+                <div class="reveal-info">
+                    <span class="reveal-number">WORK → 003</span>
+                    <span class="reveal-type">Design + Build</span>
+                    <h2 class="reveal-client">L'Oréal Office</h2>
+                    <p class="reveal-meta">4.750 m² · Jakarta, Indonesia</p>
+                    <p class="reveal-tagline">"Kecantikan dalam setiap sudut ruang"</p>
+                    <a href="#" class="reveal-link">View Project <span>→</span></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- GRID 2 KOLOM x 5 BARIS (10 Projects) -->
+    <!-- ========================================== -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="section-header-small animate-on-scroll">
+                <span class="section-tag">More Works</span>
+                <h2>Project Gallery</h2>
+            </div>
+            <div class="projects-grid-2col">
+
+                <!-- Card 1 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80" alt="DANA Workspace">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">004</span>
+                        <h3>DANA Workspace</h3>
+                        <p>1.800 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80" alt="Honda Innovation Hub">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">005</span>
+                        <h3>Honda Innovation Hub</h3>
+                        <p>1.100 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Unilever Workspace">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">006</span>
+                        <h3>Unilever Workspace</h3>
+                        <p>5.200 m² · Tangerang</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="BCA Digital Hub">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">007</span>
+                        <h3>BCA Digital Hub</h3>
+                        <p>3.400 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Gojek HQ">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">008</span>
+                        <h3>Gojek Headquarters</h3>
+                        <p>6.200 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt="Microsoft Indonesia">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">009</span>
+                        <h3>Microsoft Indonesia</h3>
+                        <p>7.100 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=800&q=80" alt="Pertamina Tower">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">010</span>
+                        <h3>Pertamina Tower</h3>
+                        <p>9.500 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600493504537-8bce8b4c9f50?auto=format&fit=crop&w=800&q=80" alt="Shopee Office">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">011</span>
+                        <h3>Shopee Office</h3>
+                        <p>2.800 m² · Jakarta</p>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600566753086-00f18f6b0050?auto=format&fit=crop&w=800&q=80" alt="Traveloka Campus">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">012</span>
+                        <h3>Traveloka Campus</h3>
+                        <p>4.500 m² · Tangerang</p>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80" alt="Telkomsel HQ">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="card-number">013</span>
+                        <h3>Telkomsel HQ</h3>
+                        <p>6.800 m² · Jakarta</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- GRID 4 KOLOM x 2 BARIS (8 Projects Compact) -->
+    <!-- ========================================== -->
+    <section class="projects-grid-section bg-light">
+        <div class="container">
+            <div class="section-header-small animate-on-scroll">
+                <span class="section-tag">Recent</span>
+                <h2>Latest Projects</h2>
+            </div>
+            <div class="projects-grid-4col">
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1497366753798-e40b8b42c45a?auto=format&fit=crop&w=600&q=80" alt="Project 014">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">014</span>
+                        <h4>Grab HQ</h4>
+                        <p>5.100 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=600&q=80" alt="Project 015">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">015</span>
+                        <h4>OVO Office</h4>
+                        <p>2.300 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=600&q=80" alt="Project 016">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">016</span>
+                        <h4>Bukalapak</h4>
+                        <p>3.900 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="Project 017">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">017</span>
+                        <h4>JD.ID Office</h4>
+                        <p>4.200 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=600&q=80" alt="Project 018">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">018</span>
+                        <h4>Ruangguru</h4>
+                        <p>2.700 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Project 019">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">019</span>
+                        <h4>Blibli</h4>
+                        <p>3.100 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=80" alt="Project 020">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">020</span>
+                        <h4>Zalora</h4>
+                        <p>2.500 m²</p>
+                    </div>
+                </div>
+
+                <div class="project-card-compact animate-on-scroll">
+                    <div class="compact-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" alt="Project 021">
+                    </div>
+                    <div class="compact-info">
+                        <span class="compact-number">021</span>
+                        <h4>Lazada HQ</h4>
+                        <p>5.600 m²</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- BUTTON GRID (2 Baris x 3 Kolom) + Sitemap -->
+    <!-- ========================================== -->
+    <section class="button-grid-section">
+        <div class="button-grid-container">
+            <div class="button-grid-row">
+                <a href="/Viewallproject/viewproject.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">Project</span>
+                </a>
+                <a href="/Service/service.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">Service</span>
+                </a>
+                <a href="/Expertise/Expertise.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">Expertise</span>
+                </a>
+            </div>
+            <div class="button-grid-row">
+                <a href="/People/people.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">People</span>
+                </a>
+                <a href="/About/about.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">About</span>
+                </a>
+                <a href="/Contact/Contact.html" class="mega-button" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80');">
+                    <div class="mega-button-overlay"></div>
+                    <span class="mega-button-text">Contact</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Sitemap Button -->
+        <div class="sitemap-wrapper">
+            <a href="/Sitemap/sitemap.html" class="sitemap-button">
+                <span>View a sitemap</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- FOOTER -->
+    <!-- ========================================== -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 AVIP Style Interior. All rights reserved.</p>
+            <a href="/index.html">← Kembali ke Beranda</a>
+        </div>
+    </footer>
+
+    <script src="viewproject.js"></script>
+</body>
+</html>
